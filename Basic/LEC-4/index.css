@@ -1,0 +1,52 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.navbar-items {
+  display: flex;
+}
+.navbar-items > li {
+  list-style-type: none;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+.logo {
+  border-radius: 100%;
+}
+.body-Container {
+  display: flex;
+  gap: 20px;
+}
+
+.card-items {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: black;
+  background-color: #efd9cf;
+  border: 2px solid #4f4f4a;
+  box-shadow: 5px 8px #c4c4b8;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.food-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 20px;
+}
+.food-details > p {
+  margin: 0px;
+  padding: 5px 0px;
+}
